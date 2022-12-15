@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bg-some-part:#C5E9FF;
+  --bg-header: #002359;
+  --bg-btn:#4479A5;
+  --bg-body:#96C3EA;
+  --text-color:#EBF8FE;
+
+}
+body{
+  background: var(--bg-body);
+  width: 100%;
+  height: 100%;
+}
