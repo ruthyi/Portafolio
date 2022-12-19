@@ -1,10 +1,14 @@
-import Btn from "./components/btn/Btn"
+import Header from "./components/Header/header";
+import Banner from "./components/Banner/banner";
+import AcercaMi from "./components/AcercaMi/AcercaMi";
 function App() {
-  let x= "Hablemos";
   return (
-    <div>
-      <Btn option={x}/>
-      Hola Mundo
+    <div className="container-fluid">
+      <Header/>
+      <Banner/>
+      <AcercaMi/>
+      
+      hola mundo
     </div>
   )
 }
