@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 :root{
   --bg-some-part:#C5E9FF;
   --bg-header: #002359;
@@ -13,11 +14,15 @@
   --text-color:#EBF8FE;
 
 }
+html, body{
+  width: 100%;
+  height: auto;
+}
 
-html, body, .principal{
+ body,#root, .principal{
   background: var(--bg-body);
   width: 100%;
-  height: 100%;
+  height: auto;
   font-size: larger;
 }
 /* estilo logo */
@@ -91,28 +96,34 @@ margin-top: -1.5rem;
   color: var(--bg-btn);
 }
 /* estilo photo */
+.cont-photo{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8rem;
+  margin-top: -100px;
+}
 .div-photo{
+  width: 180px;
+  height: auto;
   background: var(--bg-some-part);
   border-radius: 40px 40px 0px 0px;
-  width: auto;
 }
 .div-photo img{
-  margin-left: -1rem;
-  width: 114%;
+  width: 180px;
   height: auto;
 }
 
 /* estilo acerca de mi */
-
-.cont-elemts{
-  background: var(--bg-body);
+.cont-acerca{
+  margin-top: -150px;
 }
-.title-about{
+.cont-acerca h1{
   color: var(--text-color);
   font-family: 'Zen Dots';
   font-style: normal;
   font-size: 3rem;
   -webkit-text-stroke: 1.5px white;
+  
 }
 
 /* estilo nav2 */
@@ -120,4 +131,58 @@ margin-top: -1.5rem;
   color: black;
   font-family: 'Contrail One', cursive;
   font-size: 1.8rem;
-}  
+}
+.linea-nav{
+  border-bottom: 0.5rem solid black ;
+}
+
+/* estilo quiensoy */
+.quien-img{
+  width: 100%;
+  height: auto;
+}
+.quien-p{
+  text-align: justify;
+  color: var(--bg-header);
+  font-family: 'Contrail One', cursive;
+  font-size: larger;
+}
+
+/* estilo projects */
+.mis-projects{
+  font-family: 'Zen Dots';
+  font-size: 48px;
+  color: var(--bg-header);
+  -webkit-text-stroke: 1.5px black;
+}
+.p2, .p4{
+  margin-top: -50rem;
+}
+.img-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-project img{
+  width: 50%;
+  height: auto;
+}
+.text-card h1{
+  font-family: 'Contrail One', cursive;
+  font-size: 2.2rem;
+  color: var(--bg-body);
+  -webkit-text-stroke: 2px var(--bg-header);
+}
+.text-card p{
+  text-align: justify;
+  font-family: 'Contrail One', cursive;
+  font-size: 1.5rem;
+  color: var(--bg-body);
+}
+.text-card a{
+  text-align: end;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--bg-btn);
+  -webkit-text-stroke: 0.1px var(--bg-header);
+}
