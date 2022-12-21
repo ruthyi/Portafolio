@@ -7,7 +7,7 @@ export default function Header(){
         <div className='row d-flex justify-content-between align-self-center  div-header'>
             <img className="col-xxl-1 logo" src={logo} alt="logo" />
             <NavFirst/>
-            <Btn option={"Hablemos"}/>
+            <Btn option={"Hablemos"} link={"#/"}/>
         </div>
     )
 }
