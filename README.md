@@ -31,10 +31,10 @@ Por el momento unicamente muestra informacion y remite a linkeding en los casos 
 CSS
 En las diferentes hojas de estilos cuentan con las siguientes varibales:
 
-Color del fondo de algunos segmentos (--bg-some-part:#C5E9FF1)
-Color del fondo del header, nav y footer (--bg-header: #002359)
-Color del fondo del boton (--bg-btn:#4479A5)
-Color del fondo de la pantalla(--bg-body:#96C3EA)
-Color de algunas letras y bodes(--text-color:#EBF8FE)
+* Color del fondo de algunos segmentos (--bg-some-part:#C5E9FF1)
+* Color del fondo del header, nav y footer (--bg-header: #002359)
+* Color del fondo del boton (--bg-btn:#4479A5)
+* Color del fondo de la pantalla(--bg-body:#96C3EA)
+* Color de algunas letras y bodes(--text-color:#EBF8FE)
 
 
