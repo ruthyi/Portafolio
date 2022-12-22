@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Project } from "./project";
+import { Project } from "./Project";
 import Btn from "../btn/Btn";
 
 export default function ProyectoList() {
