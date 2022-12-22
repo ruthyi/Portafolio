@@ -2,7 +2,7 @@ import logo from "../../assets/logo-r.png"
 import Btn from "../btn/Btn"
 export default function NavFirst() {
     return (
-        <nav className="navbar row d-flex justify-content-between navbar-expand-lg bg-light">
+        <nav className="navbar row d-flex justify-content-between navbar-expand-lg">
             <div className=" col-xxl-12  d-flex justify-content-between container-fluid">
                 <a className="px-4 navbar-brand" href="#"><img className="logo" src={logo} alt="logo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

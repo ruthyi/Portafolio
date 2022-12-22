@@ -55,6 +55,9 @@ html, body{
   background: var(--bg-header);
 }
 /* estilo nav */
+.navbar{
+  background: var(--bg-header);
+}
 .div-nav, .nav-link, .nav-item {
   color: var(--bg-btn);
   -webkit-text-stroke: 1.5px black;
