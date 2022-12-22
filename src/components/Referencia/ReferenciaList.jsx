@@ -7,19 +7,19 @@ export default function ReferanciaList(){
             id: "1",
             name: "Carlos Alberto Bermudez Arenas",
             cargo: "Docente de fisica  en el gimnasio Liceo Edad De Oro",
-            linkeding: ""
+            linkeding: "https://www.linkedin.com/in/carlos-bermudez-arenas-87b961231/"
         },
         {
             id: "2",
             name: "Lida Mercedes Otalora",
             cargo: "Docente en el área de tecnología del Instituto Pedagógico Nacional .",
-            linkeding: ""
+            linkeding: "https://www.linkedin.com/in/lida-otalora-8378ba25a/"
         },
         {
             id: "3",
             name: "Nathalia Garcia",
             cargo: "Ingeniera Industrial",
-            linkeding: ""
+            linkeding: "www.linkedin.com/in/nathalia-garcía-cruz-524b42205"
         }
     ]);
     return(
