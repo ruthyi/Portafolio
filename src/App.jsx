@@ -4,6 +4,7 @@ import AcercaMi from "./components/AcercaMi/AcercaMi";
 import Photography from "./components/Photography/Photography";
 import ProyectoList from "./components/Project/ProyectoList";
 import ReferanciaList from "./components/Referencia/ReferenciaList";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -14,8 +15,7 @@ function App() {
       <AcercaMi/>
       <ProyectoList/>
       <ReferanciaList/>
-      
-      hola mundo
+      <Footer/>
     </div>
   )
 }

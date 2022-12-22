@@ -204,3 +204,12 @@ margin-top: -1.5rem;
   width: 25rem;
   height: 25rem;
 }
+
+/* estilo footer */
+footer{
+  background: var(--bg-header);
+  color: var(--text-color);
+}
+footer p{
+  text-align: center;
+}
