@@ -1,4 +1,4 @@
-import Header from "./components/Header/header";
+import NavFirst from "./components/Nav/NavFirst";
 import Banner from "./components/Banner/banner";
 import AcercaMi from "./components/AcercaMi/AcercaMi";
 import Photography from "./components/Photography/Photography";
@@ -9,7 +9,7 @@ import Footer from "./components/Footer/footer";
 function App() {
   return (
     <div className="container-fluid">
-      <Header/>
+      <NavFirst/>
       <Banner/>
       <Photography/>
       <AcercaMi/>
