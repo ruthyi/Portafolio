@@ -10,10 +10,10 @@ Sitio Web en el que se podra encontrar información acerca de quien soy, mis hab
 
 
 # Instalación
-$ git clone ... //Clonar el repositorio
-$ cd Prtafolio   // ir a la carpeta
-$ npm install       // instalar el paquete npm
-$ npm run dev // ejecutar el proyecto localmente
+1. $ git clone ... //Clonar el repositorio
+2. $ cd Prtafolio   // ir a la carpeta
+3. $ npm install       // instalar el paquete npm
+4. $ npm run dev // ejecutar el proyecto localmente
 
 # Diseño
 ![image](https://user-images.githubusercontent.com/117925498/209231377-3f0d6416-5529-4f70-b241-c19f7c0a02af.png)
